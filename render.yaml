@@ -8,9 +8,9 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.0
-      # Public (student) mode -- data entry + read-only results only.
-      # ML/MOA analysis never runs on this deployed service; that only
-      # happens locally on the admin's laptop (APP_MODE=admin there).
+      # Public (student) mode -- strictly read-only dashboard and results.
+      # Students cannot enter data, run ML/MOA, modify the database, or access
+      # admin pages. All ML/MOA processing happens locally on the admin laptop.
       - key: APP_MODE
         value: public
       # Add these in the Render dashboard (Environment tab) instead of
