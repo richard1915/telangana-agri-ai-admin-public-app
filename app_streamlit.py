@@ -623,32 +623,48 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Admin (laptop) gets the full pipeline, including the pages that run
-# ML/MOA. Public (Render, students) only gets data-entry + read-only
-# results pages -- it can never trigger a model run.
-ADMIN_ONLY_PAGES = {"ML & MOA Analysis", "Precision Spraying (Stage 2)", "Database", "Harvest Outcomes"}
-PUBLIC_RESULT_PAGES = ["Crop Results", "Soil Results", "ML/MOA Results", "Charts", "Project Results"]
+# Admin (laptop) gets the full application.
+# Public (Render) gets ONLY the read-only dashboard/results.
+ADMIN_ONLY_PAGES = {
+    "ML & MOA Analysis",
+    "Precision Spraying (Stage 2)",
+    "Database",
+    "Harvest Outcomes",
+}
+
+PUBLIC_RESULT_PAGES = [
+    "Crop Results",
+    "Soil Results",
+    "ML/MOA Results",
+    "Charts",
+    "Project Results",
+]
 
 if IS_ADMIN_MODE:
     nav_labels = list(PAGE_ICONS.keys())
+
     if "admin_authed" in st.session_state:
         st.sidebar.success("Admin mode")
+
         if st.sidebar.button("Log out"):
             st.session_state["admin_authed"] = False
             st.rerun()
+
 else:
-    # Exclude admin-only pages AND the result pages themselves here --
-    # they're inserted explicitly below at a fixed spot, so leaving them
-    # in this filter would list them twice.
-    _exclude = ADMIN_ONLY_PAGES | set(PUBLIC_RESULT_PAGES)
-    base_labels = [p for p in PAGE_ICONS.keys() if p not in _exclude]
-    # Public-facing label for the awareness chatbot page.
-    base_labels = ["Agriculture Information" if p == "Farmer Awareness" else p for p in base_labels]
-    PAGE_ICONS["Agriculture Information"] = PAGE_ICONS["Farmer Awareness"]
-    PAGE_ICONS["Dashboard"] = "📊"  # public-mode Dashboard icon (admin keeps 🏠)
-    # Insert the read-only results pages right after data-entry, before Maps.
-    insert_at = base_labels.index("Maps") if "Maps" in base_labels else len(base_labels)
-    nav_labels = base_labels[:insert_at] + PUBLIC_RESULT_PAGES + base_labels[insert_at:]
+    # PUBLIC/STUDENT MODE:
+    # Students can ONLY view the dashboard and saved results.
+    # No registration, farmer entry, soil entry, maps, ML, MOA,
+    # database, or other processing pages are exposed.
+    nav_labels = [
+        "Dashboard",
+        "Crop Results",
+        "Soil Results",
+        "ML/MOA Results",
+        "Charts",
+        "Project Results",
+    ]
+
+    st.sidebar.info("📊 Student / Public Mode")
 
 page = st.sidebar.radio(
     "Navigation",
@@ -729,117 +745,153 @@ if page == "Area":
 
 
 elif page == "Dashboard":
-    page_header("Dashboard")
-    if IS_ADMIN_MODE:
-        pending_count = len(fetch_pending_submissions())
-        if pending_count:
-            st.warning(f"📥 {pending_count} student submission(s) waiting for ML & MOA analysis. Open that page to load and run them.")
-        else:
-            st.success("No pending student submissions.")
-    st.write("Workflow: Area -> Student Registration -> Farmer Details -> Soil Information -> ML & MOA Analysis -> Maps -> Precision Spraying (Stage 2)")
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.metric("Student Registered", "Yes" if st.session_state.student_registration else "No")
-    with col2:
-        st.metric("Farmer Details Saved", "Yes" if st.session_state.farmer_details else "No")
-    with col3:
-        st.metric("Soil Information Saved", "Yes" if st.session_state.soil_information else "No")
-
-    st.divider()
-    st.subheader("Telangana Soil Dataset")
-    dataset_df = load_soil_dataset()
-    if not dataset_df.empty:
-        st.dataframe(dataset_df, use_container_width=True, height=280)
-    else:
-        st.warning("Could not load Telangana soil dataset.")
-
-    st.divider()
-    st.subheader("Dashboard ML Input Guidance")
-    farmer = st.session_state.farmer_details
-    soil = st.session_state.soil_information
-    soil_testing_done = farmer.get("soil_testing_done", "No")
-
-    if soil_testing_done == "Yes":
-        st.success("Soil testing is done. Enter tested values for better ML accuracy.")
-        with st.form("dashboard_ml_inputs"):
-            c1, c2, c3 = st.columns(3)
-            with c1:
-                ml_moisture = st.number_input(
-                    "Soil Moisture (%)",
-                    min_value=0.0,
-                    max_value=100.0,
-                    value=float(soil.get("moisture", 35.0)),
-                    step=1.0,
-                )
-                ml_carbon = st.number_input(
-                    "Organic Carbon (%)",
-                    min_value=0.0,
-                    value=float(soil.get("organic_carbon", 0.8)),
-                    step=0.1,
-                )
-            with c2:
-                ml_ph = st.number_input(
-                    "Soil pH",
-                    min_value=3.5,
-                    max_value=10.0,
-                    value=float(soil.get("ph", 6.5)),
-                    step=0.1,
-                )
-                ml_ec = st.number_input(
-                    "Electrical Conductivity (dS/m)",
-                    min_value=0.0,
-                    value=float(soil.get("electrical_conductivity", 0.3)),
-                    step=0.1,
-                )
-            with c3:
-                ml_chemical = st.selectbox(
-                    "Chemical",
-                    ["NPK", "DAP", "Urea", "Lime", "Sulfur", "Pesticide", "Fungicide", "Herbicide", "Gypsum"],
-                    index=0,
-                )
-
-            save_ml_inputs = st.form_submit_button("Save ML Inputs", use_container_width=True)
-
-        if save_ml_inputs:
-            st.session_state.soil_information.update(
-                {
-                    "moisture": float(ml_moisture),
-                    "organic_carbon": float(ml_carbon),
-                    "ph": float(ml_ph),
-                    "electrical_conductivity": float(ml_ec),
-                    "previous_chemical": str(ml_chemical),
-                }
-            )
-            st.success("ML input values saved from tested soil report.")
-    else:
-        st.warning("Soil testing is not done. Showing recommendation by crop and soil type.")
-        fallback_crop = farmer.get("current_crop", "Rice")
-        fallback_soil_type = normalize_soil_type(soil.get("soil_type", "Red Soil"))
-        ph_assumption = float(soil.get("ph", 6.5))
-        chem = recommend_chemical_by_soil_type(fallback_soil_type, ph_assumption)
-        moa = meerkat_chemical_reduction(BASELINE_DOSE_BY_CROP.get(fallback_crop, 80.0), target_yield_percentage=0.95)
-
-        r1, r2, r3 = st.columns(3)
-        with r1:
-            st.metric("Crop", fallback_crop)
-        with r2:
-            st.metric("Suggested Chemical", chem["primary_chemical"])
-        with r3:
-            st.metric("MOA Reduced Dose", f"{moa['optimal_chemical_dose']} kg/acre")
-
-        st.info(
-            f"Without test data, system used soil type '{fallback_soil_type}' and pH {ph_assumption:.1f} "
-            f"to suggest {chem['primary_chemical']} and reduce dose by {moa['reduction_percentage']:.1f}%."
-        )
-
-    st.divider()
-    st.subheader("Awareness: Soil Fertility and Chemical Reduction")
-    st.info(
-        "Maintain soil organic carbon through compost/green manure, test pH and EC every season, "
-        "avoid over-application of fertilizers, use split doses based on crop stage, and prefer MOA-reduced "
-        "chemical plans to protect soil fertility and lower input cost."
+    page_header(
+        "Dashboard",
+        subtitle="Read-only project results from completed analyses.",
+        icon="📊",
     )
 
+    # PUBLIC DASHBOARD
+    if not IS_ADMIN_MODE:
+        ml_records = fetch_all("ml_results")
+        moa_records = fetch_all("moa_results")
+        soil_records = fetch_all("soil_entries")
+        submissions = fetch_all("soil_submissions")
+
+        # Summary metrics
+        c1, c2, c3, c4 = st.columns(4)
+
+        with c1:
+            st.metric("Analyses Completed", len(moa_records))
+
+        with c2:
+            st.metric("Crop Predictions", len(ml_records))
+
+        with c3:
+            st.metric("Soil Records", len(soil_records))
+
+        with c4:
+            pending = sum(
+                1 for row in submissions
+                if row.get("status") == "pending"
+            )
+            st.metric("Pending Submissions", pending)
+
+        st.divider()
+
+        # Latest crop/ML results
+        st.subheader("🌱 Latest Crop & Yield Results")
+
+        if ml_records:
+            ml_df = pd.DataFrame(ml_records)
+
+            columns = [
+                c for c in [
+                    "created_at",
+                    "farmer_name",
+                    "next_crop",
+                    "recommended_crop",
+                    "predicted_yield",
+                    "confidence_score",
+                    "limiting_factor",
+                ]
+                if c in ml_df.columns
+            ]
+
+            st.dataframe(
+                ml_df[columns].tail(20),
+                use_container_width=True,
+                hide_index=True,
+            )
+        else:
+            st.info("No completed ML results available yet.")
+
+        st.divider()
+
+        # Latest MOA results
+        st.subheader("🤖 Latest MOA Chemical Optimization Results")
+
+        if moa_records:
+            moa_df = pd.DataFrame(moa_records)
+
+            columns = [
+                c for c in [
+                    "created_at",
+                    "farmer_name",
+                    "next_crop",
+                    "initial_dose",
+                    "optimized_dose",
+                    "reduction_percentage",
+                ]
+                if c in moa_df.columns
+            ]
+
+            st.dataframe(
+                moa_df[columns].tail(20),
+                use_container_width=True,
+                hide_index=True,
+            )
+        else:
+            st.info("No completed MOA results available yet.")
+
+        st.divider()
+
+        st.success(
+            "This is a read-only student dashboard. "
+            "ML and MOA processing is performed on the administrator's local system."
+        )
+
+    # ADMIN DASHBOARD
+    else:
+        pending_count = len(fetch_pending_submissions())
+
+        if pending_count:
+            st.warning(
+                f"📥 {pending_count} student submission(s) waiting "
+                "for ML & MOA analysis."
+            )
+        else:
+            st.success("No pending student submissions.")
+
+        st.write(
+            "Workflow: Area → Student Registration → Farmer Details → "
+            "Soil Information → ML & MOA Analysis → Maps → Precision Spraying"
+        )
+
+        col1, col2, col3 = st.columns(3)
+
+        with col1:
+            st.metric(
+                "Student Registered",
+                "Yes" if st.session_state.student_registration else "No"
+            )
+
+        with col2:
+            st.metric(
+                "Farmer Details Saved",
+                "Yes" if st.session_state.farmer_details else "No"
+            )
+
+        with col3:
+            st.metric(
+                "Soil Information Saved",
+                "Yes" if st.session_state.soil_information else "No"
+            )
+
+        st.divider()
+
+        st.subheader("Telangana Soil Dataset")
+
+        dataset_df = load_soil_dataset()
+
+        if not dataset_df.empty:
+            st.dataframe(
+                dataset_df,
+                use_container_width=True,
+                height=280
+            )
+        else:
+            st.warning("Could not load Telangana soil dataset.")
 
 elif page == "Student Registration":
     page_header("Student Registration")
