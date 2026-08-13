@@ -1,0 +1,401 @@
+District,Soil_Type,pH,Nitrogen,Phosphorus,Potassium,Organic_Carbon,Soil_Moisture,Electrical_Conductivity,Crop,Crop_Category,Yield_kg_per_acre
+Kamareddy,Red,5.57,197.0,36.0,316.0,0.91,36.8,0.42,Sesame,Field,197.2
+Khammam,Black,6.86,155.0,34.0,288.0,0.79,16.6,1.95,Rice,Field,3810.5
+Nalgonda,Laterite,5.92,313.0,44.0,110.0,0.39,35.4,1.99,Paddy,Plantation,3687.7
+Hyderabad,Alluvial,5.71,200.0,64.0,363.0,0.63,15.8,0.36,Turmeric,Cash,2049.4
+Khammam,Red,6.53,227.0,78.0,132.0,0.62,30.1,2.29,Cotton,Plantation,1701.1
+Warangal,Black,5.94,215.0,89.0,285.0,0.8,30.5,2.72,Paddy,Field,4534.4
+Nalgonda,Alluvial,6.22,186.0,86.0,360.0,0.58,29.7,1.36,Castor,Field,529.2
+Khammam,Laterite,7.52,223.0,61.0,196.0,1.2,14.1,1.66,Paddy,Field,3557.2
+Karimnagar,Alluvial,7.11,215.0,62.0,230.0,0.53,26.6,3.02,Maize,Plantation,2874.5
+Mahbubnagar,Laterite,5.8,224.0,52.0,385.0,1.09,17.9,1.68,Groundnut,Plantation,1182.9
+Kamareddy,Laterite,7.77,236.0,34.0,200.0,0.45,38.6,2.96,Rice,Plantation,3270.8
+Adilabad,Red,8.01,299.0,78.0,178.0,0.35,36.3,3.04,Cotton,Plantation,1435.7
+Hyderabad,Black,5.85,231.0,58.0,165.0,1.09,22.7,0.8,Chilli,Plantation,1693.9
+Jagtial,Laterite,6.58,264.0,46.0,368.0,0.71,17.4,0.35,Rice,Plantation,4089.5
+Medak,Black,5.52,270.0,24.0,102.0,0.33,19.9,1.72,Red Gram,Plantation,364.9
+Warangal,Black,7.45,300.0,60.0,158.0,0.73,22.2,0.44,Sesame,Cash,221.5
+Rangareddy,Red,7.32,317.0,27.0,209.0,0.61,35.9,0.91,Sorghum,Plantation,1280.6
+Nizamabad,Black,6.25,192.0,85.0,222.0,1.08,26.5,0.3,Chilli,Field,1931.9
+Khammam,Black,6.6,232.0,81.0,369.0,0.45,10.1,1.34,Castor,Cash,478.1
+Jagtial,Alluvial,5.92,200.0,88.0,265.0,0.79,32.4,0.32,Soybean,Plantation,909.6
+Warangal,Black,5.65,236.0,80.0,102.0,0.36,35.9,1.38,Turmeric,Plantation,1812.1
+Medak,Red,6.63,249.0,57.0,379.0,0.48,31.5,0.88,Bajra,Field,747.4
+Mahbubnagar,Alluvial,6.35,278.0,25.0,227.0,1.2,39.9,0.37,Sorghum,Plantation,1268.2
+Nalgonda,Red,7.87,213.0,31.0,347.0,0.93,28.4,3.16,Sunflower,Field,571.2
+Warangal,Laterite,8.02,168.0,81.0,165.0,1.1,32.3,0.62,Green Gram,Plantation,287.8
+Nalgonda,Black,7.36,295.0,55.0,160.0,1.12,11.5,2.08,Red Gram,Field,389.4
+Karimnagar,Laterite,5.94,225.0,69.0,259.0,0.4,38.4,2.26,Sugarcane,Plantation,48983.1
+Nalgonda,Black,6.66,157.0,46.0,379.0,1.17,11.2,1.24,Turmeric,Plantation,1742.2
+Warangal,Alluvial,8.13,277.0,85.0,156.0,0.45,34.0,0.69,Sesame,Field,193.3
+Nalgonda,Alluvial,7.67,297.0,77.0,165.0,1.01,13.2,2.81,Soybean,Field,730.6
+Rangareddy,Laterite,6.32,285.0,36.0,88.0,0.47,19.8,2.79,Red Gram,Cash,416.0
+Nizamabad,Laterite,8.04,170.0,88.0,137.0,1.17,18.0,0.48,Sesame,Cash,219.3
+Nalgonda,Alluvial,7.14,237.0,47.0,265.0,0.53,31.3,0.16,Chilli,Plantation,1655.4
+Jagtial,Black,6.48,162.0,66.0,186.0,0.58,35.4,2.35,Green Gram,Plantation,281.4
+Nizamabad,Laterite,6.59,200.0,29.0,215.0,1.15,30.3,2.9,Green Gram,Cash,316.9
+Adilabad,Laterite,6.27,223.0,61.0,290.0,0.72,23.3,0.8,Soybean,Plantation,783.4
+Hyderabad,Laterite,6.89,258.0,43.0,342.0,0.98,30.2,0.84,Sorghum,Field,1318.8
+Khammam,Alluvial,7.15,281.0,52.0,364.0,0.82,31.6,1.32,Bajra,Field,698.8
+Jagtial,Red,7.91,296.0,82.0,329.0,0.5,34.1,2.27,Castor,Field,511.2
+Hyderabad,Alluvial,5.86,229.0,57.0,259.0,0.59,32.7,1.5,Sunflower,Cash,569.5
+Warangal,Alluvial,7.92,276.0,53.0,163.0,0.52,29.1,2.49,Sunflower,Cash,531.2
+Mahbubnagar,Alluvial,5.71,199.0,39.0,182.0,0.79,14.2,0.86,Sugarcane,Plantation,48013.4
+Nizamabad,Alluvial,6.39,229.0,24.0,347.0,0.65,33.1,3.04,Rice,Plantation,3941.4
+Adilabad,Laterite,6.31,216.0,82.0,347.0,0.78,32.0,2.59,Turmeric,Cash,1968.3
+Nizamabad,Alluvial,5.58,207.0,68.0,209.0,0.45,24.0,0.54,Chilli,Field,1644.4
+Medak,Red,5.73,223.0,81.0,138.0,0.53,19.8,1.54,Black Gram,Cash,282.1
+Nizamabad,Laterite,7.75,230.0,72.0,97.0,1.16,16.7,0.36,Paddy,Field,4136.6
+Khammam,Red,7.18,191.0,53.0,117.0,1.15,24.0,0.93,Bengal Gram,Field,439.2
+Jagtial,Red,7.6,178.0,42.0,265.0,1.14,27.3,2.92,Bajra,Cash,777.0
+Khammam,Red,7.1,291.0,37.0,303.0,0.57,30.5,2.61,Paddy,Cash,4107.7
+Kamareddy,Laterite,5.69,260.0,21.0,214.0,0.74,23.0,1.25,Castor,Plantation,477.5
+Karimnagar,Laterite,7.16,306.0,74.0,229.0,1.04,27.8,1.13,Turmeric,Field,2048.1
+Rangareddy,Black,7.53,247.0,67.0,188.0,0.74,19.8,1.64,Bengal Gram,Cash,426.7
+Medak,Laterite,7.0,238.0,33.0,157.0,0.67,26.7,0.88,Soybean,Plantation,807.9
+Rangareddy,Red,5.75,188.0,68.0,178.0,0.82,24.2,1.77,Sesame,Plantation,224.6
+Nalgonda,Alluvial,6.23,193.0,28.0,142.0,0.41,26.1,2.47,Groundnut,Field,880.4
+Rangareddy,Laterite,7.46,316.0,57.0,171.0,0.39,15.8,0.84,Groundnut,Cash,869.7
+Warangal,Black,6.24,316.0,59.0,303.0,0.41,36.1,1.65,Rice,Plantation,3694.3
+Rangareddy,Alluvial,6.42,314.0,38.0,356.0,0.4,12.0,1.65,Paddy,Field,3404.6
+Medak,Laterite,5.73,192.0,59.0,213.0,0.84,28.6,2.52,Bajra,Cash,790.3
+Mahbubnagar,Alluvial,6.32,256.0,63.0,317.0,1.15,16.2,0.79,Cotton,Field,1569.0
+Warangal,Red,5.92,219.0,68.0,230.0,0.33,18.6,1.01,Castor,Field,510.3
+Mahbubnagar,Black,6.65,243.0,65.0,371.0,1.04,12.1,0.66,Green Gram,Plantation,328.8
+Medak,Laterite,6.69,230.0,41.0,209.0,0.55,26.2,1.49,Paddy,Cash,4125.6
+Medak,Laterite,5.57,189.0,67.0,355.0,0.83,10.6,2.48,Red Gram,Plantation,383.5
+Karimnagar,Alluvial,6.9,225.0,39.0,399.0,0.69,34.4,3.11,Soybean,Cash,804.0
+Nalgonda,Red,7.82,206.0,69.0,172.0,1.15,34.4,1.83,Castor,Field,506.8
+Nalgonda,Red,8.12,219.0,56.0,396.0,0.89,26.3,1.41,Sorghum,Plantation,1352.0
+Rangareddy,Alluvial,7.55,185.0,58.0,377.0,0.69,30.9,0.52,Turmeric,Plantation,1860.1
+Warangal,Red,6.99,166.0,89.0,372.0,0.72,13.5,2.69,Soybean,Plantation,742.6
+Jagtial,Laterite,6.62,232.0,53.0,226.0,0.43,15.7,1.98,Sugarcane,Field,50877.9
+Nizamabad,Laterite,8.02,236.0,77.0,171.0,0.57,27.6,3.2,Soybean,Field,788.4
+Rangareddy,Laterite,6.4,280.0,46.0,379.0,1.08,39.4,0.88,Bajra,Field,792.7
+Nizamabad,Red,6.36,230.0,84.0,202.0,1.19,33.8,2.14,Sugarcane,Cash,68094.4
+Karimnagar,Laterite,7.85,299.0,51.0,248.0,0.71,31.7,1.4,Sugarcane,Field,57793.1
+Mahbubnagar,Laterite,7.18,218.0,26.0,185.0,0.91,26.0,3.06,Soybean,Plantation,713.1
+Hyderabad,Black,7.2,307.0,90.0,319.0,0.69,13.0,2.08,Maize,Cash,2365.8
+Mahbubnagar,Red,5.62,285.0,41.0,200.0,0.43,25.9,1.88,Groundnut,Field,968.5
+Medak,Alluvial,7.17,191.0,84.0,126.0,0.72,17.6,0.93,Rice,Cash,4098.6
+Kamareddy,Black,5.7,311.0,89.0,176.0,1.17,30.7,1.54,Green Gram,Field,366.9
+Rangareddy,Red,6.14,247.0,60.0,398.0,0.57,39.3,2.16,Red Gram,Field,436.1
+Kamareddy,Red,7.96,277.0,78.0,369.0,1.0,16.9,2.6,Turmeric,Plantation,1807.5
+Mahbubnagar,Black,7.2,304.0,65.0,179.0,0.7,27.4,2.38,Cotton,Cash,1627.6
+Nizamabad,Black,6.04,284.0,81.0,197.0,0.75,18.2,0.65,Soybean,Cash,846.6
+Nalgonda,Red,6.76,163.0,73.0,152.0,0.91,30.2,1.36,Chilli,Cash,1507.3
+Nizamabad,Red,6.21,171.0,46.0,320.0,0.54,21.4,2.1,Bengal Gram,Field,438.5
+Rangareddy,Red,7.17,310.0,43.0,275.0,0.88,29.1,1.57,Green Gram,Plantation,331.4
+Karimnagar,Red,8.05,202.0,54.0,111.0,1.1,14.1,1.53,Chilli,Cash,1415.3
+Jagtial,Black,7.89,261.0,78.0,277.0,1.15,18.4,2.26,Sorghum,Cash,1317.1
+Khammam,Laterite,5.77,267.0,58.0,393.0,0.62,21.9,0.73,Maize,Cash,2446.0
+Khammam,Red,5.64,207.0,89.0,332.0,0.48,34.9,1.84,Sorghum,Field,1238.0
+Karimnagar,Red,6.25,317.0,89.0,253.0,1.02,13.3,2.79,Sugarcane,Field,56762.5
+Khammam,Laterite,5.54,195.0,29.0,215.0,0.4,11.9,1.52,Bengal Gram,Plantation,352.0
+Rangareddy,Black,8.05,157.0,75.0,357.0,0.77,23.7,3.09,Paddy,Cash,4299.2
+Nizamabad,Red,6.82,305.0,25.0,106.0,0.85,12.0,0.99,Chilli,Plantation,1427.1
+Medak,Laterite,6.73,253.0,27.0,305.0,1.07,29.5,2.5,Sorghum,Cash,1430.9
+Khammam,Alluvial,6.42,227.0,49.0,110.0,0.68,30.0,1.29,Sugarcane,Plantation,61671.8
+Hyderabad,Red,7.75,166.0,27.0,316.0,1.03,26.7,1.94,Chilli,Plantation,1511.5
+Hyderabad,Alluvial,6.45,263.0,73.0,358.0,0.95,39.1,1.98,Bengal Gram,Field,471.6
+Khammam,Black,7.27,188.0,28.0,351.0,0.63,32.9,1.9,Sesame,Plantation,232.6
+Medak,Red,7.14,262.0,69.0,89.0,0.55,32.9,2.96,Bengal Gram,Field,403.8
+Karimnagar,Alluvial,5.69,276.0,88.0,109.0,0.78,21.3,1.53,Groundnut,Cash,1048.3
+Nalgonda,Red,7.89,176.0,73.0,96.0,0.37,23.3,1.44,Castor,Cash,432.2
+Warangal,Red,6.43,169.0,67.0,270.0,0.77,19.3,0.82,Paddy,Field,3788.0
+Khammam,Black,7.56,199.0,28.0,239.0,0.69,13.9,1.77,Turmeric,Plantation,1687.4
+Kamareddy,Laterite,5.69,296.0,23.0,86.0,1.13,35.9,1.91,Bajra,Plantation,695.3
+Mahbubnagar,Red,6.59,314.0,32.0,383.0,0.71,30.7,1.25,Sesame,Field,224.9
+Medak,Alluvial,6.91,217.0,42.0,189.0,0.6,15.0,1.71,Maize,Plantation,2377.7
+Nalgonda,Laterite,7.46,289.0,77.0,156.0,0.43,15.9,1.99,Cotton,Field,1589.7
+Kamareddy,Alluvial,6.75,246.0,61.0,298.0,1.09,29.3,3.16,Black Gram,Plantation,331.2
+Rangareddy,Red,6.77,257.0,76.0,269.0,0.62,12.2,1.56,Paddy,Field,3700.3
+Mahbubnagar,Red,7.24,316.0,26.0,270.0,0.65,27.4,3.06,Paddy,Cash,4512.0
+Medak,Black,6.37,231.0,31.0,100.0,0.39,37.0,1.2,Cotton,Plantation,1392.0
+Adilabad,Black,7.41,318.0,57.0,275.0,0.63,37.5,1.33,Black Gram,Plantation,307.4
+Kamareddy,Laterite,5.68,166.0,67.0,171.0,0.95,29.7,2.91,Sugarcane,Cash,53231.9
+Kamareddy,Black,7.98,203.0,66.0,292.0,0.42,31.3,0.41,Chilli,Cash,1562.6
+Nalgonda,Black,7.31,291.0,72.0,299.0,0.77,29.4,1.44,Bengal Gram,Field,456.7
+Karimnagar,Black,6.42,280.0,33.0,400.0,0.44,18.9,2.55,Sunflower,Plantation,552.8
+Warangal,Red,7.29,299.0,63.0,271.0,0.44,15.4,2.26,Groundnut,Plantation,965.8
+Nizamabad,Laterite,7.33,190.0,51.0,171.0,0.97,23.5,1.78,Green Gram,Cash,328.1
+Khammam,Laterite,7.33,247.0,51.0,326.0,1.0,25.1,1.43,Groundnut,Field,1209.6
+Karimnagar,Laterite,5.64,232.0,46.0,379.0,0.94,25.5,0.53,Cotton,Field,1635.9
+Warangal,Black,7.74,166.0,84.0,341.0,1.1,37.9,1.42,Bajra,Plantation,695.3
+Nizamabad,Red,6.51,155.0,85.0,349.0,0.88,33.7,0.57,Green Gram,Cash,349.4
+Karimnagar,Alluvial,6.71,151.0,26.0,162.0,1.05,26.5,2.37,Sunflower,Cash,464.2
+Mahbubnagar,Black,6.31,158.0,49.0,334.0,0.71,13.3,2.91,Chilli,Field,1532.8
+Medak,Black,7.44,200.0,20.0,193.0,0.81,15.6,2.19,Sunflower,Cash,419.0
+Warangal,Red,6.55,230.0,64.0,394.0,0.53,10.5,2.55,Bengal Gram,Field,432.8
+Kamareddy,Red,7.58,275.0,43.0,94.0,0.79,34.4,0.68,Castor,Plantation,505.6
+Karimnagar,Black,5.67,282.0,52.0,174.0,0.34,16.0,0.28,Green Gram,Plantation,272.3
+Warangal,Alluvial,6.18,278.0,33.0,194.0,1.0,36.0,1.16,Maize,Cash,2683.2
+Nizamabad,Alluvial,7.92,216.0,88.0,239.0,0.75,37.7,1.73,Cotton,Plantation,1526.6
+Nizamabad,Black,6.97,205.0,26.0,291.0,0.58,28.1,1.45,Castor,Cash,516.1
+Jagtial,Laterite,7.16,224.0,65.0,333.0,0.35,30.1,1.39,Sunflower,Plantation,541.0
+Adilabad,Black,7.79,265.0,51.0,120.0,0.51,29.4,1.25,Paddy,Plantation,3510.7
+Rangareddy,Laterite,6.5,280.0,60.0,249.0,0.66,29.5,0.91,Maize,Field,2986.3
+Rangareddy,Alluvial,7.97,170.0,74.0,305.0,0.49,28.4,2.27,Soybean,Field,725.5
+Hyderabad,Alluvial,5.97,271.0,90.0,339.0,1.17,39.6,2.19,Cotton,Plantation,1647.5
+Mahbubnagar,Black,7.42,308.0,65.0,334.0,0.76,13.6,0.76,Sugarcane,Field,58607.6
+Adilabad,Laterite,7.0,213.0,76.0,257.0,0.85,12.6,1.09,Soybean,Plantation,774.9
+Nizamabad,Red,5.84,204.0,25.0,229.0,0.77,13.9,2.68,Chilli,Plantation,1431.4
+Karimnagar,Alluvial,6.86,298.0,78.0,246.0,0.57,14.9,3.0,Turmeric,Cash,2036.5
+Warangal,Laterite,7.78,193.0,64.0,256.0,0.41,19.1,1.78,Sunflower,Plantation,445.4
+Medak,Black,5.96,256.0,83.0,188.0,1.13,11.2,2.78,Cotton,Field,1715.8
+Medak,Laterite,7.26,280.0,49.0,284.0,0.75,28.8,1.03,Green Gram,Cash,312.7
+Kamareddy,Alluvial,6.3,162.0,24.0,221.0,0.74,16.1,2.0,Black Gram,Plantation,261.0
+Nalgonda,Alluvial,5.85,213.0,59.0,182.0,0.72,18.0,0.91,Maize,Field,2421.3
+Nizamabad,Alluvial,6.17,297.0,31.0,185.0,0.82,19.4,2.48,Soybean,Plantation,800.3
+Mahbubnagar,Alluvial,5.56,311.0,55.0,389.0,0.49,20.6,0.3,Soybean,Plantation,823.7
+Kamareddy,Alluvial,6.27,151.0,28.0,123.0,0.54,21.0,1.38,Paddy,Cash,3001.2
+Warangal,Black,6.48,199.0,47.0,224.0,0.79,34.8,2.05,Maize,Field,2904.5
+Nizamabad,Laterite,7.65,208.0,86.0,322.0,0.48,25.3,1.68,Paddy,Field,3630.8
+Nalgonda,Alluvial,6.9,175.0,83.0,125.0,1.14,19.6,1.35,Green Gram,Plantation,298.8
+Warangal,Alluvial,7.41,201.0,77.0,198.0,0.91,39.4,1.93,Rice,Plantation,3939.9
+Kamareddy,Black,7.45,249.0,32.0,281.0,0.86,35.2,0.6,Turmeric,Field,1987.2
+Jagtial,Red,6.02,225.0,49.0,212.0,0.48,25.1,2.02,Soybean,Plantation,806.0
+Jagtial,Black,6.9,245.0,90.0,233.0,0.64,38.7,1.55,Chilli,Cash,1589.2
+Kamareddy,Laterite,7.15,183.0,37.0,259.0,0.5,39.2,1.06,Green Gram,Plantation,253.8
+Jagtial,Alluvial,6.36,209.0,85.0,335.0,0.55,13.7,2.21,Bajra,Cash,720.8
+Karimnagar,Laterite,5.61,312.0,26.0,376.0,0.89,32.4,0.8,Chilli,Cash,1833.6
+Jagtial,Laterite,5.87,255.0,61.0,158.0,0.9,25.9,2.1,Paddy,Field,4185.0
+Jagtial,Alluvial,5.77,281.0,20.0,256.0,1.14,22.2,3.0,Soybean,Cash,842.0
+Mahbubnagar,Laterite,6.27,160.0,74.0,289.0,0.51,32.2,2.74,Paddy,Field,3918.1
+Karimnagar,Red,8.19,217.0,55.0,380.0,1.17,37.8,2.82,Rice,Cash,3992.7
+Hyderabad,Laterite,6.27,318.0,58.0,238.0,1.14,35.5,1.58,Sorghum,Field,1368.8
+Jagtial,Alluvial,7.25,272.0,21.0,188.0,0.57,30.2,0.74,Bajra,Cash,678.4
+Hyderabad,Alluvial,7.31,181.0,30.0,184.0,0.52,17.8,0.87,Red Gram,Cash,352.5
+Jagtial,Red,6.21,211.0,37.0,294.0,0.72,14.8,2.24,Green Gram,Plantation,271.6
+Mahbubnagar,Laterite,7.16,187.0,29.0,129.0,0.97,28.2,1.42,Chilli,Cash,1605.1
+Kamareddy,Black,7.56,266.0,62.0,332.0,0.77,25.8,1.25,Maize,Field,2956.9
+Warangal,Black,7.05,175.0,43.0,247.0,0.4,16.2,1.93,Cotton,Plantation,1341.1
+Adilabad,Alluvial,5.86,221.0,59.0,259.0,0.91,19.2,0.22,Red Gram,Field,479.5
+Medak,Red,5.62,209.0,24.0,398.0,1.14,12.1,3.0,Paddy,Cash,3743.0
+Karimnagar,Alluvial,6.51,302.0,51.0,373.0,0.64,12.4,3.09,Chilli,Field,1593.3
+Nalgonda,Red,5.98,241.0,57.0,313.0,0.5,10.1,0.22,Green Gram,Cash,290.4
+Warangal,Alluvial,6.94,290.0,37.0,191.0,0.55,38.1,2.36,Maize,Field,2687.3
+Nizamabad,Red,6.15,161.0,62.0,223.0,0.9,36.2,0.9,Paddy,Cash,3903.9
+Warangal,Black,7.54,282.0,30.0,398.0,0.51,37.5,1.91,Black Gram,Field,281.2
+Karimnagar,Black,6.62,197.0,59.0,269.0,0.96,15.3,2.22,Chilli,Cash,1466.6
+Nalgonda,Alluvial,7.62,204.0,49.0,128.0,0.64,32.6,1.59,Turmeric,Cash,1893.7
+Karimnagar,Alluvial,7.97,246.0,88.0,258.0,0.42,17.3,0.77,Cotton,Cash,1536.1
+Hyderabad,Black,5.64,214.0,62.0,93.0,0.37,34.1,1.94,Chilli,Field,1386.8
+Nalgonda,Laterite,8.08,153.0,86.0,388.0,0.41,40.0,1.61,Turmeric,Plantation,1761.0
+Khammam,Alluvial,7.97,244.0,74.0,202.0,0.78,20.8,0.95,Sunflower,Cash,524.3
+Jagtial,Alluvial,7.56,204.0,34.0,180.0,0.34,35.9,2.41,Rice,Cash,3320.3
+Medak,Alluvial,6.3,183.0,36.0,262.0,0.52,26.5,3.03,Black Gram,Cash,313.4
+Rangareddy,Alluvial,6.74,275.0,45.0,125.0,0.79,15.5,2.86,Paddy,Plantation,3485.5
+Hyderabad,Red,7.56,220.0,79.0,154.0,0.94,10.3,1.69,Bengal Gram,Field,427.6
+Kamareddy,Alluvial,7.28,153.0,57.0,212.0,0.32,31.7,1.78,Green Gram,Field,271.7
+Jagtial,Alluvial,7.68,305.0,27.0,111.0,0.43,15.8,1.76,Bengal Gram,Cash,396.1
+Hyderabad,Laterite,8.09,228.0,37.0,303.0,0.57,34.8,0.4,Paddy,Field,3628.1
+Nizamabad,Alluvial,5.65,152.0,32.0,240.0,0.69,33.5,1.88,Maize,Plantation,2580.3
+Khammam,Black,7.93,268.0,60.0,167.0,1.13,30.5,1.01,Chilli,Plantation,1717.1
+Karimnagar,Laterite,5.54,185.0,30.0,343.0,1.04,37.9,1.06,Turmeric,Plantation,2005.5
+Nizamabad,Laterite,6.54,276.0,75.0,301.0,0.37,32.4,1.2,Maize,Cash,2506.1
+Hyderabad,Laterite,7.13,254.0,62.0,390.0,0.59,29.0,2.54,Castor,Cash,521.1
+Warangal,Alluvial,6.67,266.0,66.0,107.0,0.86,33.9,2.32,Cotton,Cash,1558.7
+Jagtial,Black,7.5,204.0,27.0,82.0,0.58,20.8,0.97,Sugarcane,Field,44472.2
+Rangareddy,Alluvial,5.78,165.0,59.0,271.0,1.01,35.9,0.19,Sesame,Cash,232.8
+Jagtial,Black,7.04,179.0,47.0,124.0,0.57,24.8,0.34,Sesame,Cash,196.9
+Rangareddy,Red,6.48,311.0,70.0,239.0,0.86,23.7,0.56,Rice,Cash,4199.9
+Medak,Alluvial,7.67,206.0,43.0,341.0,1.07,39.2,0.57,Black Gram,Plantation,332.9
+Khammam,Alluvial,6.35,314.0,88.0,173.0,0.93,24.7,1.91,Turmeric,Cash,2089.1
+Nizamabad,Laterite,5.81,246.0,61.0,255.0,0.91,26.5,3.06,Castor,Plantation,545.2
+Mahbubnagar,Red,7.71,285.0,49.0,240.0,0.87,17.3,2.16,Sesame,Cash,201.9
+Medak,Alluvial,7.07,241.0,85.0,358.0,0.68,11.1,3.1,Chilli,Plantation,1547.0
+Hyderabad,Red,7.58,262.0,45.0,287.0,0.34,39.5,2.22,Bajra,Cash,694.6
+Nizamabad,Red,5.53,194.0,56.0,246.0,0.82,27.3,1.51,Bajra,Cash,768.1
+Medak,Black,6.43,154.0,27.0,213.0,1.17,13.5,3.02,Sugarcane,Cash,49115.4
+Rangareddy,Black,6.91,209.0,27.0,311.0,0.71,12.0,0.29,Maize,Field,2585.6
+Kamareddy,Red,7.33,178.0,89.0,158.0,0.46,14.8,1.86,Castor,Field,500.2
+Kamareddy,Black,6.0,262.0,48.0,316.0,1.09,23.5,1.46,Rice,Plantation,4044.4
+Mahbubnagar,Red,7.06,286.0,58.0,197.0,0.48,13.4,2.2,Soybean,Plantation,804.6
+Nalgonda,Alluvial,7.15,250.0,44.0,351.0,0.86,34.4,2.3,Green Gram,Plantation,331.0
+Kamareddy,Black,6.35,191.0,28.0,199.0,0.43,21.7,1.97,Bajra,Cash,582.9
+Kamareddy,Black,7.0,233.0,30.0,181.0,0.71,11.6,1.25,Rice,Cash,3229.4
+Nizamabad,Alluvial,6.6,234.0,70.0,222.0,0.45,27.0,2.58,Turmeric,Cash,1824.9
+Khammam,Laterite,5.95,228.0,72.0,325.0,0.79,13.4,0.5,Chilli,Cash,1578.8
+Adilabad,Alluvial,6.98,318.0,27.0,346.0,0.98,18.9,3.2,Castor,Cash,538.3
+Hyderabad,Alluvial,7.84,170.0,77.0,147.0,0.96,30.7,2.78,Sesame,Field,224.6
+Khammam,Black,7.67,247.0,57.0,271.0,0.45,39.4,1.04,Red Gram,Plantation,444.3
+Kamareddy,Red,5.87,278.0,49.0,99.0,0.55,29.7,2.29,Sugarcane,Field,52311.3
+Nalgonda,Black,7.56,265.0,54.0,265.0,0.54,22.4,1.53,Cotton,Cash,1562.3
+Mahbubnagar,Laterite,6.73,233.0,61.0,358.0,1.06,12.8,3.12,Bengal Gram,Field,474.7
+Nizamabad,Black,8.11,290.0,55.0,183.0,0.56,26.4,0.55,Soybean,Cash,847.6
+Adilabad,Red,5.77,283.0,52.0,120.0,1.07,23.2,0.15,Sesame,Field,252.0
+Karimnagar,Laterite,5.93,309.0,39.0,289.0,0.53,21.2,2.91,Groundnut,Field,1027.6
+Mahbubnagar,Black,6.66,166.0,27.0,148.0,0.37,27.8,1.73,Castor,Field,415.2
+Nalgonda,Red,8.17,222.0,29.0,103.0,0.64,31.9,0.46,Black Gram,Cash,285.8
+Karimnagar,Alluvial,7.59,278.0,29.0,398.0,0.43,25.9,0.18,Groundnut,Cash,1010.2
+Khammam,Black,7.98,255.0,51.0,150.0,1.11,14.2,0.53,Bajra,Cash,719.0
+Nalgonda,Black,6.17,260.0,37.0,272.0,0.95,18.5,3.02,Rice,Plantation,4442.9
+Khammam,Black,7.52,200.0,24.0,367.0,1.16,24.8,0.49,Soybean,Plantation,828.6
+Warangal,Red,8.16,309.0,29.0,355.0,0.81,21.0,2.23,Soybean,Field,714.6
+Hyderabad,Red,6.21,157.0,24.0,333.0,0.76,28.9,1.68,Sesame,Cash,228.8
+Hyderabad,Black,6.25,203.0,56.0,145.0,1.03,26.1,1.34,Cotton,Cash,1708.3
+Jagtial,Black,5.66,165.0,50.0,225.0,0.85,19.3,2.41,Groundnut,Field,902.0
+Karimnagar,Red,5.94,312.0,57.0,331.0,0.95,15.0,0.54,Red Gram,Plantation,483.6
+Adilabad,Laterite,7.68,196.0,24.0,308.0,0.82,12.3,1.54,Bengal Gram,Field,391.0
+Medak,Black,6.49,193.0,27.0,264.0,0.95,16.9,1.7,Paddy,Field,3649.0
+Rangareddy,Laterite,6.53,176.0,85.0,354.0,0.8,37.4,2.41,Sesame,Field,222.6
+Nizamabad,Laterite,6.23,163.0,46.0,241.0,1.11,15.4,2.6,Paddy,Cash,3438.8
+Rangareddy,Laterite,7.59,203.0,26.0,226.0,0.63,18.7,2.54,Turmeric,Cash,1653.4
+Rangareddy,Black,7.48,243.0,76.0,128.0,1.14,10.7,1.8,Rice,Cash,3414.5
+Kamareddy,Alluvial,7.79,274.0,27.0,250.0,0.51,24.8,0.33,Sugarcane,Plantation,52352.6
+Adilabad,Black,7.92,238.0,69.0,199.0,1.18,12.5,0.44,Sugarcane,Plantation,58702.6
+Hyderabad,Red,6.67,314.0,37.0,164.0,0.58,34.0,2.29,Black Gram,Cash,309.0
+Khammam,Red,8.05,173.0,74.0,115.0,0.4,23.5,1.11,Maize,Plantation,2218.8
+Khammam,Alluvial,6.33,195.0,28.0,130.0,0.92,34.8,2.28,Paddy,Field,3983.9
+Nalgonda,Black,5.75,192.0,45.0,244.0,0.91,17.8,3.17,Rice,Cash,4111.1
+Warangal,Black,5.76,167.0,76.0,119.0,0.36,33.4,0.83,Sorghum,Cash,1139.7
+Kamareddy,Red,7.07,194.0,77.0,87.0,0.36,37.1,1.5,Sugarcane,Field,54229.1
+Nalgonda,Red,5.62,228.0,32.0,264.0,1.04,21.8,0.24,Sesame,Field,214.8
+Karimnagar,Laterite,6.26,300.0,22.0,278.0,0.52,18.9,1.41,Chilli,Cash,1423.8
+Mahbubnagar,Alluvial,5.87,184.0,82.0,248.0,0.87,34.1,2.57,Bajra,Plantation,725.3
+Warangal,Alluvial,6.43,246.0,43.0,167.0,0.32,27.9,0.24,Red Gram,Field,452.1
+Rangareddy,Laterite,7.57,320.0,88.0,112.0,0.89,18.0,2.64,Paddy,Field,4091.7
+Nizamabad,Laterite,8.03,319.0,32.0,156.0,0.59,32.1,1.24,Rice,Plantation,3961.7
+Medak,Black,7.02,182.0,89.0,362.0,0.74,19.3,1.65,Cotton,Field,1532.4
+Khammam,Red,6.92,150.0,84.0,144.0,0.42,31.5,2.95,Black Gram,Field,260.7
+Medak,Black,7.59,294.0,80.0,387.0,0.64,38.3,1.36,Maize,Cash,2453.0
+Karimnagar,Black,7.48,224.0,65.0,236.0,0.59,31.2,1.86,Bengal Gram,Field,458.6
+Karimnagar,Alluvial,6.33,267.0,29.0,313.0,1.15,38.5,1.34,Paddy,Field,4248.4
+Medak,Black,7.23,168.0,55.0,186.0,0.37,20.4,1.12,Cotton,Plantation,1414.0
+Jagtial,Laterite,6.71,195.0,37.0,102.0,0.53,13.2,0.15,Bajra,Cash,603.2
+Karimnagar,Alluvial,6.83,214.0,58.0,112.0,0.73,35.9,2.14,Turmeric,Field,1836.1
+Adilabad,Laterite,5.55,194.0,27.0,189.0,1.1,14.8,0.38,Cotton,Cash,1429.6
+Medak,Alluvial,7.4,223.0,66.0,274.0,0.69,11.6,1.16,Sorghum,Cash,1292.2
+Jagtial,Laterite,7.28,201.0,27.0,206.0,0.79,24.7,0.32,Rice,Cash,3470.5
+Kamareddy,Alluvial,6.04,154.0,32.0,173.0,0.37,35.3,1.09,Bajra,Cash,575.2
+Kamareddy,Laterite,5.75,243.0,33.0,363.0,0.63,23.4,0.95,Castor,Cash,509.4
+Mahbubnagar,Red,5.91,268.0,27.0,294.0,1.03,22.4,2.46,Turmeric,Plantation,1867.6
+Nizamabad,Alluvial,8.11,267.0,86.0,263.0,0.51,19.0,1.35,Paddy,Plantation,3735.1
+Warangal,Black,5.82,279.0,32.0,395.0,1.17,34.3,0.53,Sesame,Field,256.6
+Nizamabad,Black,8.19,257.0,78.0,163.0,1.12,37.4,0.35,Bajra,Plantation,687.9
+Nalgonda,Laterite,6.9,306.0,21.0,304.0,0.83,33.5,0.49,Sugarcane,Field,61845.2
+Medak,Red,8.0,246.0,27.0,172.0,0.78,20.3,1.4,Bajra,Plantation,640.9
+Medak,Alluvial,5.6,197.0,30.0,275.0,0.92,11.2,2.86,Black Gram,Plantation,264.4
+Jagtial,Alluvial,7.99,302.0,21.0,342.0,0.57,18.4,1.65,Maize,Field,2305.5
+Jagtial,Alluvial,7.59,205.0,71.0,274.0,0.38,23.3,2.94,Sesame,Plantation,210.1
+Warangal,Laterite,7.72,238.0,31.0,180.0,0.76,14.1,2.75,Rice,Field,3275.7
+Khammam,Red,6.17,228.0,84.0,305.0,0.55,34.7,1.69,Maize,Plantation,2412.3
+Nalgonda,Alluvial,7.1,180.0,81.0,268.0,0.61,14.9,2.88,Cotton,Cash,1381.0
+Adilabad,Black,7.81,283.0,35.0,151.0,0.5,16.2,2.14,Sunflower,Field,495.2
+Kamareddy,Red,6.78,172.0,32.0,336.0,0.5,28.3,3.03,Red Gram,Cash,466.6
+Nalgonda,Alluvial,6.18,229.0,67.0,344.0,0.66,13.1,1.71,Bengal Gram,Plantation,440.0
+Medak,Laterite,6.31,168.0,24.0,396.0,0.88,35.8,0.95,Green Gram,Field,290.0
+Khammam,Red,7.67,286.0,62.0,291.0,0.91,31.6,2.15,Green Gram,Cash,353.4
+Nizamabad,Alluvial,7.49,249.0,90.0,341.0,0.61,31.4,2.24,Soybean,Plantation,781.2
+Mahbubnagar,Black,7.77,299.0,33.0,111.0,0.42,17.8,2.62,Groundnut,Plantation,986.0
+Kamareddy,Red,6.1,188.0,81.0,215.0,1.1,21.2,1.94,Castor,Field,555.5
+Kamareddy,Red,6.77,183.0,28.0,298.0,0.78,22.4,2.81,Sugarcane,Field,61844.7
+Nalgonda,Alluvial,8.17,302.0,89.0,126.0,1.08,15.4,0.4,Black Gram,Plantation,329.8
+Nalgonda,Red,5.51,196.0,73.0,134.0,0.99,24.7,2.48,Cotton,Field,1646.9
+Kamareddy,Alluvial,6.59,314.0,47.0,92.0,0.48,21.2,0.19,Black Gram,Plantation,283.1
+Kamareddy,Red,7.19,192.0,69.0,190.0,0.42,21.5,1.95,Groundnut,Field,1043.8
+Mahbubnagar,Laterite,6.73,238.0,57.0,219.0,0.92,14.0,3.19,Soybean,Cash,842.0
+Karimnagar,Alluvial,5.55,188.0,89.0,148.0,0.32,25.1,0.53,Paddy,Cash,4000.5
+Mahbubnagar,Red,7.1,158.0,28.0,348.0,0.34,13.5,1.51,Maize,Plantation,2069.0
+Jagtial,Black,6.05,267.0,21.0,215.0,0.39,25.6,2.05,Sugarcane,Cash,57643.8
+Hyderabad,Red,6.26,283.0,55.0,275.0,1.0,34.9,3.12,Bengal Gram,Plantation,465.4
+Karimnagar,Red,6.98,305.0,68.0,234.0,0.51,10.4,0.42,Maize,Plantation,2502.8
+Karimnagar,Red,7.6,163.0,71.0,370.0,0.88,23.7,3.13,Red Gram,Cash,422.5
+Karimnagar,Red,7.8,211.0,67.0,216.0,0.4,35.5,2.87,Rice,Field,3736.6
+Karimnagar,Laterite,6.47,224.0,64.0,361.0,0.38,34.4,0.71,Bajra,Cash,762.3
+Mahbubnagar,Alluvial,7.36,231.0,50.0,364.0,0.45,14.0,2.37,Groundnut,Field,950.1
+Medak,Alluvial,7.67,265.0,33.0,202.0,0.62,10.9,2.24,Sugarcane,Cash,53851.5
+Hyderabad,Alluvial,6.69,161.0,66.0,84.0,1.08,25.7,2.42,Turmeric,Plantation,2073.0
+Warangal,Red,6.67,274.0,54.0,292.0,0.88,14.5,2.67,Paddy,Field,4193.5
+Karimnagar,Alluvial,7.8,298.0,25.0,237.0,0.52,39.1,0.3,Turmeric,Plantation,1818.0
+Nizamabad,Black,5.71,226.0,60.0,108.0,0.75,19.5,3.14,Rice,Field,3686.2
+Adilabad,Red,7.73,285.0,87.0,284.0,1.1,26.9,2.15,Castor,Cash,552.7
+Adilabad,Black,7.78,206.0,74.0,272.0,0.94,20.9,1.53,Maize,Plantation,2571.3
+Nalgonda,Laterite,7.74,314.0,40.0,247.0,0.93,11.4,0.65,Sugarcane,Plantation,57912.7
+Nizamabad,Red,6.19,183.0,28.0,353.0,0.49,34.7,0.73,Black Gram,Field,305.3
+Adilabad,Red,7.58,227.0,66.0,386.0,0.42,25.0,1.77,Paddy,Plantation,4210.6
+Medak,Alluvial,8.0,283.0,84.0,301.0,0.46,34.5,0.47,Black Gram,Plantation,312.6
+Nizamabad,Black,6.24,314.0,88.0,225.0,0.42,22.4,2.29,Sunflower,Cash,561.2
+Warangal,Laterite,7.42,309.0,64.0,144.0,0.86,18.7,1.2,Sugarcane,Plantation,60303.4
+Karimnagar,Laterite,7.42,279.0,59.0,266.0,1.15,31.3,2.21,Chilli,Cash,1829.2
+Nizamabad,Red,6.91,154.0,30.0,294.0,0.48,32.5,0.64,Green Gram,Plantation,265.8
+Adilabad,Laterite,6.05,242.0,45.0,225.0,0.85,30.3,1.86,Turmeric,Plantation,2114.0
+Nizamabad,Black,6.88,285.0,69.0,302.0,0.34,21.4,1.42,Black Gram,Plantation,271.3
+Jagtial,Laterite,6.05,298.0,80.0,222.0,0.5,29.0,2.31,Bengal Gram,Plantation,459.3
+Medak,Black,7.6,314.0,41.0,137.0,0.91,15.6,0.68,Sunflower,Field,507.0
+Nizamabad,Laterite,7.0,172.0,61.0,162.0,0.6,31.3,0.62,Sugarcane,Cash,55468.0
+Kamareddy,Laterite,6.82,247.0,45.0,331.0,0.59,16.6,0.71,Cotton,Plantation,1451.1
+Warangal,Alluvial,5.75,188.0,35.0,186.0,0.62,16.6,2.45,Sunflower,Cash,500.7
+Kamareddy,Red,5.81,209.0,37.0,286.0,1.13,17.3,0.27,Black Gram,Cash,328.6
+Hyderabad,Alluvial,6.19,273.0,22.0,245.0,0.99,25.4,1.7,Soybean,Field,809.4
+Kamareddy,Black,6.36,164.0,27.0,391.0,1.0,26.0,2.06,Sorghum,Plantation,1435.1
+Khammam,Alluvial,7.76,185.0,78.0,361.0,0.97,23.1,2.64,Cotton,Plantation,1721.6
+Adilabad,Alluvial,7.44,156.0,25.0,137.0,0.53,12.1,2.66,Red Gram,Cash,319.0
+Kamareddy,Alluvial,6.67,153.0,67.0,251.0,0.88,28.6,2.46,Paddy,Plantation,4533.0
+Nalgonda,Red,6.28,267.0,62.0,170.0,1.13,21.4,2.66,Rice,Cash,3972.8
+Khammam,Black,7.52,285.0,79.0,174.0,0.87,18.9,2.86,Bengal Gram,Field,454.8
+Warangal,Black,5.83,151.0,62.0,252.0,1.15,19.1,2.43,Bengal Gram,Field,425.2
+Kamareddy,Black,5.93,188.0,78.0,142.0,0.46,34.0,2.75,Chilli,Cash,1528.4
+Hyderabad,Laterite,7.31,193.0,34.0,266.0,1.16,20.7,2.2,Turmeric,Field,1811.1
+Hyderabad,Black,6.36,227.0,63.0,178.0,0.83,27.0,1.26,Black Gram,Cash,310.7
+Nalgonda,Black,7.62,271.0,65.0,169.0,0.62,30.4,1.16,Soybean,Cash,797.9
+Mahbubnagar,Alluvial,6.99,180.0,62.0,349.0,1.07,14.2,1.79,Red Gram,Plantation,482.3
+Hyderabad,Red,7.91,294.0,64.0,340.0,0.82,33.1,0.8,Paddy,Plantation,3864.3
+Warangal,Alluvial,7.27,175.0,47.0,365.0,0.83,35.7,0.56,Sunflower,Plantation,491.2
+Nalgonda,Red,7.29,294.0,76.0,276.0,0.45,25.4,1.51,Groundnut,Plantation,1149.6
+Kamareddy,Black,7.49,232.0,45.0,150.0,0.74,11.9,1.28,Paddy,Plantation,3279.8
+Nalgonda,Alluvial,6.77,227.0,23.0,394.0,0.59,31.1,1.74,Red Gram,Plantation,432.5
+Warangal,Black,6.52,214.0,61.0,367.0,0.37,17.5,3.12,Turmeric,Plantation,1824.6
+Nalgonda,Alluvial,7.64,301.0,20.0,362.0,0.7,16.9,1.72,Red Gram,Field,397.4
+Karimnagar,Laterite,7.13,289.0,66.0,213.0,0.6,13.4,2.21,Soybean,Field,765.3
+Kamareddy,Alluvial,5.56,157.0,60.0,132.0,0.87,11.2,1.9,Paddy,Field,3247.1
+Karimnagar,Alluvial,7.12,246.0,21.0,310.0,0.9,18.5,0.41,Castor,Plantation,584.0
+Rangareddy,Black,6.09,220.0,30.0,266.0,0.99,28.7,1.71,Groundnut,Plantation,1156.1
+Rangareddy,Red,6.12,216.0,28.0,145.0,1.07,25.1,1.43,Sugarcane,Plantation,51759.2
+Rangareddy,Red,7.87,240.0,73.0,110.0,0.89,37.1,1.79,Rice,Plantation,4005.5
+Warangal,Alluvial,6.5,157.0,57.0,153.0,1.02,33.7,1.31,Maize,Cash,2420.9
+Rangareddy,Black,7.96,164.0,62.0,254.0,0.53,10.2,2.42,Rice,Plantation,3292.5
+Warangal,Red,6.51,185.0,76.0,211.0,0.4,22.8,1.94,Red Gram,Plantation,424.0
+Nalgonda,Laterite,8.18,218.0,34.0,257.0,0.8,15.4,1.86,Soybean,Cash,782.4
+Medak,Laterite,7.59,218.0,30.0,356.0,0.41,16.9,2.54,Groundnut,Field,891.8
+Nizamabad,Laterite,7.66,254.0,68.0,97.0,0.65,29.1,2.6,Sugarcane,Cash,62022.8
+Nizamabad,Red,5.67,188.0,26.0,92.0,0.65,39.5,2.02,Sunflower,Cash,445.2
+Medak,Red,8.05,289.0,65.0,220.0,0.48,29.7,2.6,Green Gram,Field,273.3
+Medak,Black,7.16,265.0,45.0,290.0,1.18,12.6,0.99,Bajra,Cash,727.1
+Nizamabad,Black,6.9,275.0,25.0,109.0,0.56,34.9,2.94,Bengal Gram,Cash,441.0
+Mahbubnagar,Black,7.14,183.0,85.0,264.0,0.53,22.2,0.47,Cotton,Plantation,1515.5
+Hyderabad,Laterite,7.87,288.0,60.0,302.0,1.17,26.9,2.5,Black Gram,Cash,341.6
+Medak,Red,6.8,194.0,47.0,332.0,0.5,31.0,2.59,Sesame,Cash,222.0
+Adilabad,Laterite,6.17,166.0,67.0,343.0,0.37,37.9,1.6,Bengal Gram,Field,450.6
+Mahbubnagar,Black,8.06,266.0,84.0,240.0,0.48,32.1,2.81,Sorghum,Field,1193.4
+Khammam,Laterite,5.92,168.0,84.0,296.0,0.9,28.4,2.48,Chilli,Field,1878.6
+Nalgonda,Laterite,6.83,318.0,83.0,358.0,0.74,39.5,2.94,Red Gram,Cash,419.8
+Medak,Black,5.65,286.0,53.0,253.0,0.75,21.8,2.24,Groundnut,Cash,1188.7
+Jagtial,Alluvial,6.35,151.0,67.0,201.0,0.39,20.8,2.78,Groundnut,Plantation,914.4
+Mahbubnagar,Alluvial,8.09,208.0,33.0,216.0,0.68,32.6,1.26,Bajra,Cash,635.1
+Medak,Black,8.14,267.0,77.0,311.0,1.02,26.7,2.76,Sorghum,Field,1479.3
+Jagtial,Black,6.78,152.0,50.0,123.0,1.1,28.9,1.78,Black Gram,Cash,290.5
+Warangal,Red,6.58,267.0,24.0,340.0,0.73,28.9,1.52,Black Gram,Cash,327.4
+Warangal,Laterite,6.43,220.0,45.0,297.0,0.85,27.3,2.13,Chilli,Field,1910.5
+Mahbubnagar,Laterite,6.38,237.0,74.0,223.0,0.37,28.4,1.56,Sugarcane,Field,60456.7
+Nalgonda,Alluvial,7.2,247.0,79.0,103.0,0.45,16.8,1.12,Green Gram,Plantation,271.9
+Kamareddy,Alluvial,6.23,226.0,80.0,196.0,0.83,39.0,1.41,Groundnut,Field,1009.5
+Khammam,Laterite,8.04,269.0,26.0,133.0,0.39,11.9,2.83,Chilli,Field,1115.8
+Nizamabad,Red,5.78,255.0,26.0,378.0,0.65,16.9,2.4,Castor,Plantation,478.5
+Warangal,Black,5.58,263.0,80.0,184.0,0.73,39.2,1.8,Red Gram,Plantation,428.8
+Jagtial,Black,7.1,228.0,72.0,361.0,0.69,29.2,1.78,Bengal Gram,Cash,471.2
+Hyderabad,Alluvial,6.33,220.0,31.0,83.0,0.77,32.7,0.57,Green Gram,Cash,291.2
+Jagtial,Alluvial,8.06,231.0,21.0,218.0,0.56,16.9,0.17,Bengal Gram,Field,363.5
+Warangal,Alluvial,6.57,178.0,72.0,205.0,0.64,17.9,1.44,Turmeric,Plantation,1980.1
+Medak,Laterite,6.27,276.0,77.0,212.0,1.07,15.5,1.03,Castor,Plantation,542.8
+Jagtial,Alluvial,6.01,153.0,23.0,251.0,0.47,13.1,0.97,Castor,Plantation,379.8
+Hyderabad,Black,5.54,187.0,49.0,331.0,0.75,21.1,2.28,Paddy,Cash,3608.6
+Karimnagar,Red,6.22,217.0,58.0,138.0,1.11,17.5,1.31,Rice,Field,4278.5
+Jagtial,Black,6.54,316.0,37.0,398.0,0.48,32.1,0.44,Sorghum,Cash,1324.3
+Mahbubnagar,Laterite,5.93,274.0,72.0,256.0,0.41,24.4,1.06,Bengal Gram,Field,469.0
+Khammam,Red,6.14,224.0,21.0,334.0,0.83,21.9,0.89,Paddy,Plantation,4273.4
+Rangareddy,Black,6.5,165.0,31.0,109.0,0.86,37.9,3.19,Paddy,Field,3434.9
+Karimnagar,Red,5.84,190.0,89.0,332.0,0.98,34.2,1.49,Sorghum,Field,1457.9
+Nalgonda,Black,6.18,157.0,69.0,259.0,0.79,24.7,1.88,Chilli,Cash,1585.7
+Rangareddy,Laterite,7.84,252.0,80.0,131.0,0.78,23.5,2.65,Chilli,Cash,1608.0

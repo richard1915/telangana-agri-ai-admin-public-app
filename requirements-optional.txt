@@ -1,0 +1,22 @@
+# Optional: real Sentinel Hub satellite data (NDVI/soil indices).
+# Without this, the app automatically falls back to synthetic satellite
+# data everywhere -- it's fully functional either way, just less "real."
+#
+# Install separately from the main requirements.txt:
+#   pip install -r requirements-optional.txt
+#
+# This is kept separate because sentinelhub pulls in rasterio/GDAL, which
+# frequently fails to build on Windows without extra system libraries
+# (Visual C++ build tools, GDAL binaries). If it fails to install here,
+# that's fine -- just skip it and the app will use synthetic data.
+sentinelhub
+
+# Only needed if you set DATABASE_URL to a Postgres/Supabase connection
+# string in .env -- SQLite (the default) needs none of this.
+psycopg2-binary
+
+# Optional: true SHAP explanations in backend/explainability.py. Without
+# this, explain_prediction() automatically falls back to a permutation-based
+# local importance -- fully functional either way, SHAP is just the more
+# standard/rigorous explanation method where it's available.
+shap

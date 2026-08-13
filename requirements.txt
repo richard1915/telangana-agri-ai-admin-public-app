@@ -1,0 +1,32 @@
+# Core
+pandas
+numpy
+requests
+python-dotenv
+sqlalchemy
+
+# Streamlit app (run_streamlit.py) — the app
+streamlit
+altair
+folium
+streamlit-folium
+
+# Optional: convergence plots for MOA (used if available, safely skipped otherwise)
+matplotlib
+
+# Trained ML yield model (RandomForestRegressor) in backend/meerkat_optimizer.py
+scikit-learn
+
+# PDF report generation (backend/report_generator.py) -- soil/weather/crop/MOA
+# summary + cost savings + environmental impact + location marker as a downloadable PDF
+reportlab
+
+# NOTE: sentinelhub (real satellite data) is intentionally NOT listed here.
+# It pulls in rasterio/GDAL, which frequently fails to build on Windows
+# without extra system libraries -- and because pip resolves this whole
+# file as one dependency graph, a single failing package can silently
+# abort the ENTIRE install, including pandas/flask/scikit-learn above,
+# even though those would install fine on their own. The app already
+# falls back to synthetic satellite data without it. Install separately,
+# only if you want real Sentinel Hub data:
+#   pip install -r requirements-optional.txt

@@ -1,0 +1,31 @@
+services:
+  - type: web
+    name: telangana-agri-ai
+    runtime: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt psycopg2-binary"
+    startCommand: "streamlit run app_streamlit.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0
+      # Public (student) mode -- data entry + read-only results only.
+      # ML/MOA analysis never runs on this deployed service; that only
+      # happens locally on the admin's laptop (APP_MODE=admin there).
+      - key: APP_MODE
+        value: public
+      # Add these in the Render dashboard (Environment tab) instead of
+      # committing real values here -- every one is optional, the app
+      # falls back to synthetic/static data for anything left unset.
+      # DATABASE_URL must be the SAME Supabase connection string used
+      # in the admin laptop's local .env, so submissions/results flow
+      # between the two.
+      - key: DATABASE_URL
+        sync: false
+      - key: OPENWEATHER_API_KEY
+        sync: false
+      - key: AGRO_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
