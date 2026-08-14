@@ -642,20 +642,21 @@ PUBLIC_RESULT_PAGES = [
 
 if IS_ADMIN_MODE:
     nav_labels = list(PAGE_ICONS.keys())
-
     if "admin_authed" in st.session_state:
         st.sidebar.success("Admin mode")
-
         if st.sidebar.button("Log out"):
             st.session_state["admin_authed"] = False
             st.rerun()
 
 else:
     # PUBLIC/STUDENT MODE:
-    # Students can ONLY view the dashboard and saved results.
-    # No registration, farmer entry, soil entry, maps, ML, MOA,
-    # database, or other processing pages are exposed.
+    # Students can register themselves and enter farmer + soil data.
+    # ML/MOA processing remains ADMIN ONLY.
     nav_labels = [
+        "Area",
+        "Student Registration",
+        "Farmer Details",
+        "Soil Information",
         "Dashboard",
         "Crop Results",
         "Soil Results",
@@ -1213,10 +1214,15 @@ elif page == "Soil Information":
             soil_chemical_note=str(soil_chemical_note),
         )
         if submission_id:
-            st.session_state["soil_information"]["submission_id"] = submission_id
-            st.info("Submitted for review -- your teacher/admin will run the analysis and results will appear here soon.")
+           st.session_state["soil_information"]["submission_id"] = submission_id
+
+           st.success(
+               "✅ Submission received successfully. "
+               "Farmer and soil information has been saved. "
+               "The administrator will process the ML & MOA analysis."
+          )
         else:
-            st.warning("Saved locally, but could not queue this submission in the database.")
+           st.warning("Saved locally, but could not queue this submission in the database.")
 
         # EC-based salinity sanity check -- high electrical conductivity is
         # a direct lab indicator of salinity, independent of which soil
